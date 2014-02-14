@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '3.2.16'
-gem 'sqlite3'
+
 gem 'forem', :github => "radar/forem", :branch => "rails3"
 gem 'kaminari', '0.15.1'
 group :assets do
@@ -17,7 +17,7 @@ gem 'figaro'
 gem 'rolify'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
-group :development do
+group :development do 
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'hub', :require=>nil
@@ -25,6 +25,7 @@ group :development do
   gem 'rails_layout'
 end
 group :development, :test do
+  gem 'sqlite3'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
 end
