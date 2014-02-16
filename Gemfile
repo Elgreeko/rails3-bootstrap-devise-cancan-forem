@@ -3,6 +3,7 @@ ruby '2.0.0'
 gem 'rails', '3.2.16'
 
 gem 'forem', :github => "radar/forem", :branch => "rails3"
+gem 'forem-theme-twist' , :github => 'radar/forem-theme-twist'
 gem 'kaminari', '0.15.1'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

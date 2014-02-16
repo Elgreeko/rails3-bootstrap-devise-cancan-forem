@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/radar/forem-theme-twist.git
+  revision: f08ab243ee695bd5485d589c1177d99d00602150
+  specs:
+    forem-theme-twist (0.0.1)
+
+GIT
   remote: git://github.com/radar/forem.git
   revision: a25d114fdf5285743330a9c224d503cb2c924f68
   branch: rails3
@@ -241,6 +247,7 @@ DEPENDENCIES
   factory_girl_rails
   figaro
   forem!
+  forem-theme-twist!
   hub
   jquery-rails
   kaminari (= 0.15.1)
